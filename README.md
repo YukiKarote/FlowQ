@@ -297,7 +297,7 @@ Asynq ships with a command line tool to inspect the state of queues and tasks.
 To install the CLI tool, run the following command:
 
 ```sh
-go install github.com/hibiken/asynq/tools/asynq@latest
+go install https://github.com/YukiKarote/FlowQ@latest
 ```
 
 Here's an example of running the `asynq dash` command:
@@ -306,12 +306,3 @@ Here's an example of running the `asynq dash` command:
 
 For details on how to use the tool, refer to the tool's [README](/tools/asynq/README.md).
 
-## Contributing
-
-We are open to, and grateful for, any contributions (GitHub issues/PRs, feedback on [Gitter channel](https://gitter.im/go-asynq/community), etc) made by the community.
-
-Please see the [Contribution Guide](/CONTRIBUTING.md) before contributing.
-
-## License
-
-Copyright (c) 2019-present [Ken Hibino](https://github.com/hibiken) and [Contributors](https://github.com/hibiken/asynq/graphs/contributors). `Asynq` is free and open-source software licensed under the [MIT License](https://github.com/hibiken/asynq/blob/master/LICENSE). Official logo was created by [Vic Shóstak](https://github.com/koddr) and distributed under [Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/) license (CC0 1.0 Universal).
